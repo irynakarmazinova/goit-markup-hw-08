@@ -22,7 +22,8 @@ color: #757575;
 color: #ffffff;
 color: #000000;
 color: rgba(255, 255, 255, 0.6);
-цвет фона background: #2F303A; */
+цвет фона background: #2F303A; 
+цвет ховер кнопки */
 
 
 :root {
@@ -30,15 +31,135 @@ color: rgba(255, 255, 255, 0.6);
 --secondary-text-color: #757575;
 --accent-text-color: #2196f3;
 --white-text-color: #ffffff;
---logo-text-color: #000000;
+--black-text-color: #000000;
 --footer-text-color:rgba(255, 255, 255, 0.6);
---
+
+--primary-font: font-family: 'Roboto', sans-serif;
 }
 
+body {
+  color: var(--primary-text-color);
+  /* font-family: var(--primary-font); */
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+
+/* ========================COMPONENTS======================== */
+.acent-logo {
+  color: var(--accent-text-color);
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-style: 400;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+/* ======================END COMPONENTS====================== */
+
+
+
+/* ========================HEADER======================== */
+.header-logo {
+  color: var(--black-text-color);
+}
+
+.navigation-link {
+  font-style: 400;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+
+  color: var(--primary-text-color);
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--accent-text-color);
+}
+
+.contacts-link {
+font-style: 400;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color: var(--secondary-text-color);
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-text-color);
+}
+
+/* ======================END HEADER====================== */
+
+
+
+/* ========================HERO======================== */
 .hero {
 background-color: #2F303A;
 }
 
 .hero-title {
+font-style: 400;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
 color: var(--white-text-color);
 }
+
+.main-btn {
+font-style: 400;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: var(--white-text-color);
+background-color: var(--accent-text-color);
+}
+
+.main-btn:hover,
+.main-btn:focus {
+  background: #188CE8;
+}
+/* ======================END HERO====================== */
+
+
+
+/* ========================FEATURES======================== */
+/* ======================END FEATURES====================== */
+
+/* ========================SPECIALIZATION======================== */
+/* ======================END SPECIALIZATION====================== */
+
+/* ========================TEAM======================== */
+/* ======================END TEAM====================== */
+
+/* ========================HEADER======================== */
+/* ======================END HEADER====================== */
+
+/* ========================FOOTER======================== */
+.footer-logo {
+  color: var(--white-text-color);
+}
+/* ======================END FOOTER====================== */
