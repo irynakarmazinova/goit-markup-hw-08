@@ -1,7 +1,7 @@
-* {
+/* * {
   font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
-}
+} */
 /* В CSS-переменные добавляйте не только цвета, также наиболее повторяющийся свойства - размер шрифта, жирность и т.д.
 Наиболее повторяющийся свойства на макете выносим в body. */
 
@@ -9,3 +9,36 @@
 Есть повторяющие свойства - повод для создания общего класса или записать их через запятую. */
 
 /* Не забывайте о доступности - focus всегда в паре с hover. */
+
+/* body 
+цвет
+
+шрифт */ 
+
+
+/* color: #2196f3;
+color: #212121;
+color: #757575;
+color: #ffffff;
+color: #000000;
+color: rgba(255, 255, 255, 0.6);
+цвет фона background: #2F303A; */
+
+
+:root {
+--primary-text-color: #212121;
+--secondary-text-color: #757575;
+--accent-text-color: #2196f3;
+--white-text-color: #ffffff;
+--logo-text-color: #000000;
+--footer-text-color:rgba(255, 255, 255, 0.6);
+--
+}
+
+.hero {
+background-color: #2F303A;
+}
+
+.hero-title {
+color: var(--white-text-color);
+}
