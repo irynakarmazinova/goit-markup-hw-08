@@ -1,7 +1,3 @@
-/* * {
-  font-family: 'Raleway', sans-serif;
-  font-family: 'Roboto', sans-serif;
-} */
 /* В CSS-переменные добавляйте не только цвета, также наиболее повторяющийся свойства - размер шрифта, жирность и т.д.
 Наиболее повторяющийся свойства на макете выносим в body. */
 
@@ -11,10 +7,10 @@
 /* Не забывайте о доступности - focus всегда в паре с hover. */
 
 /* body 
-цвет
-
-шрифт */ 
-
+1.шрифт
+2.цвет
+3.центрирование
+ */
 
 /* color: #2196f3;
 color: #212121;
@@ -22,24 +18,29 @@ color: #757575;
 color: #ffffff;
 color: #000000;
 color: rgba(255, 255, 255, 0.6);
-цвет фона background: #2F303A; 
-цвет ховер кнопки */
-
+ background-color: #2f303a; 
+цвет ховер кнопки #188CE8;
+цвет кнопки портфолио:F5F4FA;
+ font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;*/
 
 :root {
---primary-text-color: #212121;
---secondary-text-color: #757575;
---accent-text-color: #2196f3;
---white-text-color: #ffffff;
---black-text-color: #000000;
---footer-text-color:rgba(255, 255, 255, 0.6);
+  --primary-font: 'Roboto', sans-serif;
 
---primary-font: font-family: 'Roboto', sans-serif;
+  --background-color: #2f303a;
+  --filter-btn-bgcolor: #f5f4fa;
+
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-text-color: #2196f3;
+  --white-text-color: #ffffff;
+  --black-text-color: #000000;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
   color: var(--primary-text-color);
-  /* font-family: var(--primary-font); */
+  font-family: var(--primary-font);
 }
 
 .link {
@@ -50,7 +51,6 @@ body {
   list-style: none;
 }
 
-
 /* ========================COMPONENTS======================== */
 .acent-logo {
   color: var(--accent-text-color);
@@ -58,15 +58,16 @@ body {
 
 .logo {
   font-family: 'Raleway', sans-serif;
-  font-style: 400;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+
+.active {
+  color: var(--accent-text-color);
+}
 /* ======================END COMPONENTS====================== */
-
-
 
 /* ========================HEADER======================== */
 .header-logo {
@@ -74,7 +75,6 @@ body {
 }
 
 .navigation-link {
-  font-style: 400;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
@@ -89,13 +89,12 @@ body {
 }
 
 .contacts-link {
-font-style: 400;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 
-color: var(--secondary-text-color);
+  color: var(--secondary-text-color);
 }
 
 .contacts-link:hover,
@@ -105,61 +104,173 @@ color: var(--secondary-text-color);
 
 /* ======================END HEADER====================== */
 
-
-
 /* ========================HERO======================== */
 .hero {
-background-color: #2F303A;
+  background-color: var(--background-color);
 }
 
 .hero-title {
-font-style: 400;
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 
-color: var(--white-text-color);
+  color: var(--white-text-color);
 }
 
 .main-btn {
-font-style: 400;
-font-weight: 700;
-font-size: 16px;
-line-height: 1.87;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  font-family: inherit;
+  cursor: pointer;
 
-color: var(--white-text-color);
-background-color: var(--accent-text-color);
+  color: var(--white-text-color);
+  background-color: var(--accent-text-color);
 }
 
 .main-btn:hover,
 .main-btn:focus {
-  background: #188CE8;
+  background-color: #188ce8;
 }
 /* ======================END HERO====================== */
 
-
-
 /* ========================FEATURES======================== */
+.features-subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.features-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-text-color);
+}
 /* ======================END FEATURES====================== */
 
 /* ========================SPECIALIZATION======================== */
+.title-specialization {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
 /* ======================END SPECIALIZATION====================== */
 
 /* ========================TEAM======================== */
+.title-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-text-color);
+}
 /* ======================END TEAM====================== */
 
-/* ========================HEADER======================== */
-/* ======================END HEADER====================== */
-
 /* ========================FOOTER======================== */
+.footer {
+  background-color: var(--background-color);
+}
+
 .footer-logo {
   color: var(--white-text-color);
 }
+.address {
+  font-style: normal;
+}
+
+.address-link-map {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: var(--white-text-color);
+}
+
+.address-link-map:hover,
+.address-link-map:focus {
+  color: var(--accent-text-color);
+}
+
+.address-link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: var(--footer-text-color);
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--accent-text-color);
+}
 /* ======================END FOOTER====================== */
+
+/* ------------------------PORTFOLIO---------------------- */
+/* ========================FILTER======================== */
+.filter-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-family: inherit;
+  cursor: pointer;
+
+  background-color: var(--filter-btn-bgcolor);
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--white-text-color);
+  background-color: var(--accent-text-color);
+}
+/* ======================END FILTER====================== */
+
+/* ========================CARDS======================== */
+.cards-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--primary-text-color);
+}
+
+.cards-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-text-color);
+}
+/* ======================END CARDS====================== */
