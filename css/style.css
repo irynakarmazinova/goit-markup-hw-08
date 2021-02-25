@@ -63,10 +63,6 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-
-.active {
-  color: var(--accent-text-color);
-}
 /* ======================END COMPONENTS====================== */
 
 /* ========================HEADER======================== */
@@ -81,6 +77,10 @@ body {
   letter-spacing: 0.02em;
 
   color: var(--primary-text-color);
+}
+
+.active {
+  color: var(--accent-text-color);
 }
 
 .navigation-link:hover,
