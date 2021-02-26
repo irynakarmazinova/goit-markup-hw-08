@@ -217,7 +217,9 @@ body {
 }
 
 .address-link-map:hover,
-.address-link-map:focus {
+.address-link-map:focus,
+.address-link:hover,
+.address-link:focus {
   color: var(--accent-text-color);
 }
 
@@ -227,11 +229,6 @@ body {
   letter-spacing: 0.03em;
 
   color: var(--footer-text-color);
-}
-
-.address-link:hover,
-.address-link:focus {
-  color: var(--accent-text-color);
 }
 /* ======================END FOOTER====================== */
 
