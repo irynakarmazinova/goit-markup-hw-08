@@ -24,10 +24,21 @@ color: rgba(255, 255, 255, 0.6);
  font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;*/
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+* ::before,
+* ::after {
+  box-sizing: inherit;
+}
+
 :root {
   --primary-font: 'Roboto', sans-serif;
 
   --background-color: #2f303a;
+  --team-bgcolor: #f5f4fa;
   --filter-btn-bgcolor: #f5f4fa;
 
   --primary-text-color: #212121;
@@ -170,6 +181,9 @@ body {
 /* ======================END SPECIALIZATION====================== */
 
 /* ========================TEAM======================== */
+.team {
+  background-color: var(--team-bgcolor);
+}
 .title-team {
   font-weight: 700;
   font-size: 36px;
