@@ -24,22 +24,11 @@ color: rgba(255, 255, 255, 0.6);
  font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;*/
 
-html {
-  box-sizing: border-box;
-}
-
-*,
-* ::before,
-* ::after {
-  box-sizing: inherit;
-}
-
 :root {
   --primary-font: 'Roboto', sans-serif;
 
-  --background-color: #2f303a;
-  --team-bgcolor: #f5f4fa;
-  --filter-btn-bgcolor: #f5f4fa;
+  --primary-bgncolor: #2f303a;
+  --secondary-bgncolor: #f5f4fa;
 
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
@@ -117,7 +106,7 @@ body {
 
 /* ========================HERO======================== */
 .hero {
-  background-color: var(--background-color);
+  background-color: var(--primary-bgncolor);
 }
 
 .hero-title {
@@ -144,6 +133,8 @@ body {
 
   color: var(--white-text-color);
   background-color: var(--accent-text-color);
+
+  border-radius: 4px;
 }
 
 .main-btn:hover,
@@ -182,7 +173,7 @@ body {
 
 /* ========================TEAM======================== */
 .team {
-  background-color: var(--team-bgcolor);
+  background-color: var(--secondary-bgncolor);
 }
 .title-team {
   font-weight: 700;
@@ -212,7 +203,7 @@ body {
 
 /* ========================FOOTER======================== */
 .footer {
-  background-color: var(--background-color);
+  background-color: var(--primary-bgncolor);
 }
 
 .footer-logo {
@@ -257,7 +248,7 @@ body {
   font-family: inherit;
   cursor: pointer;
 
-  background-color: var(--filter-btn-bgcolor);
+  background-color: var(--secondary-bgncolor);
 }
 
 .filter-btn:hover,
