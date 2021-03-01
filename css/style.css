@@ -33,14 +33,34 @@ color: rgba(255, 255, 255, 0.6);
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
   --accent-text-color: #2196f3;
-  --white-text-color: #ffffff;
-  --black-text-color: #000000;
+  --secondary-accent-text-color: #ffffff;
+  --logo-text-color: #000000;
   --footer-text-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
   color: var(--primary-text-color);
   font-family: var(--primary-font);
+}
+
+img {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
 }
 
 .link {
@@ -67,7 +87,7 @@ body {
 
 /* ========================HEADER======================== */
 .header-logo {
-  color: var(--black-text-color);
+  color: var(--logo-text-color);
 }
 
 .navigation-link {
@@ -117,7 +137,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  color: var(--white-text-color);
+  color: var(--secondary-accent-text-color);
 }
 
 .main-btn {
@@ -131,7 +151,7 @@ body {
   font-family: inherit;
   cursor: pointer;
 
-  color: var(--white-text-color);
+  color: var(--secondary-accent-text-color);
   background-color: var(--accent-text-color);
 
   border-radius: 4px;
@@ -207,7 +227,7 @@ body {
 }
 
 .footer-logo {
-  color: var(--white-text-color);
+  color: var(--secondary-accent-text-color);
 }
 .address {
   font-style: normal;
@@ -218,7 +238,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 
-  color: var(--white-text-color);
+  color: var(--secondary-accent-text-color);
 }
 
 .address-link-map:hover,
@@ -253,7 +273,7 @@ body {
 
 .filter-btn:hover,
 .filter-btn:focus {
-  color: var(--white-text-color);
+  color: var(--secondary-accent-text-color);
   background-color: var(--accent-text-color);
 }
 /* ======================END FILTER====================== */
