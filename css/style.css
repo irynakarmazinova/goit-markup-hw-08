@@ -346,11 +346,9 @@ ul {
 }
 
 .footer-logo {
+  display: block;
+  margin-bottom: 20px;
   color: var(--secondary-accent-text-color);
-}
-
-.address-list {
-  margin-top: 20px;
 }
 
 .address-link-map {
