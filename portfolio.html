@@ -32,12 +32,10 @@
           <!-- перечень шапка -->
           <ul class="navigation-list list">
             <li class="navigation-item">
-              <a href="./index.html" class="navigation-link link active"
-                >Студия</a
-              >
+              <a href="./index.html" class="navigation-link link">Студия</a>
             </li>
             <li class="navigation-item">
-              <a href="./portfolio.html" class="navigation-link link"
+              <a href="./portfolio.html" class="navigation-link link active"
                 >Портфолио</a
               >
             </li>
@@ -68,7 +66,7 @@
 
     <main>
       <!-- FILTER - кнопки/навигация фильтра -->
-      <section class="filter">
+      <section class="filter section">
         <div class="container">
           <h1 class="visually-hidden">Портфолио</h1>
           <ul class="filter-list list">
@@ -102,8 +100,10 @@
                   width="370"
                   height="294"
                 />
-                <h3 class="cards-title">Технокряк</h3>
-                <p class="cards-text">Веб-сайт</p>
+                <div class="cards-box">
+                  <h3 class="cards-title">Технокряк</h3>
+                  <p class="cards-text">Веб-сайт</p>
+                </div>
               </a>
             </li>
             <li class="cards-item">
@@ -114,8 +114,12 @@
                   width="370"
                   height="294"
                 />
-                <h3 class="cards-title">Проект<span lang="en"> Prime</span></h3>
-                <p class="cards-text">Маркетинг</p>
+                <div class="cards-box">
+                  <h3 class="cards-title">
+                    Проект<span lang="en"> Prime</span>
+                  </h3>
+                  <p class="cards-text">Маркетинг</p>
+                </div>
               </a>
             </li>
             <li class="cards-item">
@@ -126,10 +130,12 @@
                   width="370"
                   height="294"
                 />
-                <h3 class="cards-title">
-                  Издание<span lang="en"> Limited Edition</span>
-                </h3>
-                <p class="cards-text">Дизайн</p>
+                <div class="cards-box">
+                  <h3 class="cards-title">
+                    Издание<span lang="en"> Limited Edition</span>
+                  </h3>
+                  <p class="cards-text">Дизайн</p>
+                </div>
               </a>
             </li>
             <li class="cards-item">
@@ -140,10 +146,12 @@
                   width="370"
                   height="294"
                 />
-                <h3 class="cards-title">
-                  Постер<span lang="en"> New Orlean vs Golden Star</span>
-                </h3>
-                <p class="cards-text">Дизайн</p>
+                <div class="cards-box">
+                  <h3 class="cards-title">
+                    Постер<span lang="en"> New Orlean vs Golden Star</span>
+                  </h3>
+                  <p class="cards-text">Дизайн</p>
+                </div>
               </a>
             </li>
             <li class="cards-item">
@@ -154,8 +162,12 @@
                   width="370"
                   height="294"
                 />
-                <h3 class="cards-title">Проект<span lang="en"> Boxes</span></h3>
-                <p class="cards-text">Приложение</p>
+                <div class="cards-box">
+                  <h3 class="cards-title">
+                    Проект<span lang="en"> Boxes</span>
+                  </h3>
+                  <p class="cards-text">Приложение</p>
+                </div>
               </a>
             </li>
             <li class="cards-item">
@@ -166,8 +178,10 @@
                   width="370"
                   height="294"
                 />
-                <h3 class="cards-title">Проект<span lang="en"> LAB</span></h3>
-                <p class="cards-text">Маркетинг</p>
+                <div class="cards-box">
+                  <h3 class="cards-title">Проект<span lang="en"> LAB</span></h3>
+                  <p class="cards-text">Маркетинг</p>
+                </div>
               </a>
             </li>
             <li class="cards-item">
@@ -178,10 +192,12 @@
                   width="370"
                   height="294"
                 />
-                <h3 class="cards-title">
-                  Ресторан<span lang="en"> Seafood</span>
-                </h3>
-                <p class="cards-text">Приложение</p>
+                <div class="cards-box">
+                  <h3 class="cards-title">
+                    Ресторан<span lang="en"> Seafood</span>
+                  </h3>
+                  <p class="cards-text">Приложение</p>
+                </div>
               </a>
             </li>
             <li class="cards-item">
@@ -192,10 +208,12 @@
                   width="370"
                   height="294"
                 />
-                <h3 class="cards-title">
-                  <span lang="en">Inspiration has no Borders</span>
-                </h3>
-                <p class="cards-text">Веб-сайт</p>
+                <div class="cards-box">
+                  <h3 class="cards-title">
+                    <span lang="en">Inspiration has no Borders</span>
+                  </h3>
+                  <p class="cards-text">Веб-сайт</p>
+                </div>
               </a>
             </li>
             <li class="cards-item">
@@ -206,10 +224,12 @@
                   width="370"
                   height="294"
                 />
-                <h3 class="cards-title">
-                  <span lang="en">Growing Business</span>
-                </h3>
-                <p class="cards-text">Приложение</p>
+                <div class="cards-box">
+                  <h3 class="cards-title">
+                    <span lang="en">Growing Business</span>
+                  </h3>
+                  <p class="cards-text">Приложение</p>
+                </div>
               </a>
             </li>
           </ul>
@@ -217,34 +237,38 @@
       </section>
     </main>
 
-    <!-- подвал/FOOTER -->
     <footer class="footer">
-      <a href="#" class="footer-logo logo link"
-        ><span class="acent-logo">Web</span>Studio</a
-      >
-      <address class="address">
-        <ul class="address-list list">
-          <li class="address-item">
-            <a
-              href="https://goo.gl/maps/CKRgckwpeQfigATv9"
-              rel="noopener noofollow"
-              target="_blank"
-              class="address-link-map link"
-              >г. Киев, пр-т Леси Украинки, 26</a
-            >
-          </li>
-          <li class="address-item">
-            <a href="mailto:info@example.com" class="address-link link"
-              >info@example.com</a
-            >
-          </li>
-          <li class="address-item">
-            <a href="tel:+380991111111" class="address-link link"
-              >+38 099 111 11 11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="container">
+        <a href="#" class="footer-logo logo link"
+          ><span class="acent-logo">Web</span>Studio</a
+        >
+
+        <address class="address">
+          <div class="footer-box">
+            <ul class="address-list list">
+              <li class="address-item">
+                <a
+                  href="https://goo.gl/maps/CKRgckwpeQfigATv9"
+                  rel="noopener noofollow"
+                  target="_blank"
+                  class="address-link-map link"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="address-item">
+                <a href="mailto:info@example.com" class="address-link link"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="address-item">
+                <a href="tel:+380991111111" class="address-link link"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </div>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
