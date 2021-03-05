@@ -86,11 +86,9 @@ p {
   margin-right: auto; */
   width: 1200px;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
 
   /* outline: 2px solid tomato; */
-  /* border: 1px solid tomato; */
 }
 
 .section {
@@ -101,8 +99,6 @@ p {
 
 /* ========================HEADER======================== */
 .header {
-  padding-top: 24px;
-  padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
 }
 
@@ -121,10 +117,14 @@ p {
 
 .header-logo {
   margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .navigation-list {
   display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .navigation-item:not(:last-child) {
@@ -153,6 +153,8 @@ p {
   display: flex;
   margin-left: auto;
   align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .contacts-item:not(:last-child) {
@@ -281,6 +283,7 @@ p {
 .specialization-list {
   display: flex;
 }
+
 .specialization-item:not(:last-child) {
   margin-right: 30px;
 }
