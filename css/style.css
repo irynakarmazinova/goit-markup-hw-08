@@ -280,12 +280,7 @@ p {
 
 .specialization-list {
   display: flex;
-  /* margin-right: -30px; */
 }
-/* .specialization-item {
-  margin-right: 30px;
-  flex-basis: calc(100%-90px) / 3;
-} */
 .specialization-item:not(:last-child) {
   margin-right: 30px;
 }
