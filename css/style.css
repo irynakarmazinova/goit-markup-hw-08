@@ -278,16 +278,11 @@ ul {
 
 .specialization-list {
   display: flex;
-  margin-right: -30px;
 }
 
-.specialization-item {
+.specialization-item:not(:last-child) {
   margin-right: 30px;
 }
-
-/* .specialization-item:not(:last-child) {
-  margin-right: 30px;
-} */
 /* ======================END SPECIALIZATION====================== */
 
 /* ========================TEAM======================== */
@@ -348,6 +343,7 @@ ul {
 .footer-logo {
   display: block;
   margin-bottom: 20px;
+
   color: var(--secondary-accent-text-color);
 }
 
