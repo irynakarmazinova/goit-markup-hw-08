@@ -278,11 +278,15 @@ ul {
 
 .specialization-list {
   display: flex;
+  margin-right: -30px;
 }
-
-.specialization-item:not(:last-child) {
+.specialization-item {
   margin-right: 30px;
+  flex-basis: calc(100%-90px) / 3;
 }
+/* .specialization-item:not(:last-child) {
+  margin-right: 30px;
+} */
 /* ======================END SPECIALIZATION====================== */
 
 /* ========================TEAM======================== */
@@ -374,7 +378,7 @@ ul {
 /* ------------------------PORTFOLIO---------------------- */
 /* ========================FILTER======================== */
 .filter .container {
-  margin-bottom: 34px;
+  padding-bottom: 34px;
 }
 
 .container .filter-list {
