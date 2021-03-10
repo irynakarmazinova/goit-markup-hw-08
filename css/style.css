@@ -162,20 +162,11 @@ p {
   margin-right: 30px;
 }
 
-.contacts-box {
+.contacts-link {
   display: flex;
   justify-content: center;
   align-items: center;
-}
 
-.contacts-icon-mail {
-  fill: var(--secondary-text-color);
-  margin-right: 10px;
-  width: 16px;
-  height: 12px;
-}
-
-.contacts-link {
   color: var(--secondary-text-color);
 
   font-weight: 500;
@@ -189,19 +180,18 @@ p {
   color: var(--accent-text-color);
 }
 
+.contacts-icon-mail {
+  fill: currentColor;
+  margin-right: 10px;
+  width: 16px;
+  height: 12px;
+}
+
 .contacts-icon-tel {
-  fill: var(--secondary-text-color);
+  fill: currentColor;
   margin-right: 10px;
   width: 10px;
   height: 16px;
-  color: currentColor;
-}
-
-.contacts-icon-mail:hover,
-.contacts-icon-mail:focus,
-.contacts-icon-tel:hover,
-.contacts-icon-tel:focus {
-  fill: var(--accent-text-color);
 }
 /* ======================END HEADER====================== */
 
@@ -251,7 +241,6 @@ p {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  /* text-align: center; */
   letter-spacing: 0.06em;
   font-family: inherit;
   cursor: pointer;
@@ -272,12 +261,29 @@ p {
 .features-list {
   display: flex;
 }
+
 .features-item {
   min-width: 270px;
 }
 
 .features-item:not(:last-child) {
   margin-right: 30px;
+}
+
+.features-box-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+
+  background-color: var(--secondary-bgncolor);
+}
+
+.features-icon {
+  width: 70px;
+  height: 70px;
 }
 
 .features-subtitle {
@@ -389,18 +395,69 @@ p {
   margin-right: 10px;
 }
 
-/* .team-link-icon {
-  display: block;
+.team-link-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
-} */
-
-.team-icon {
-  width: 10px;
-  height: 10px;
   fill: var(--icon-text-color);
 }
+
+.team-link-icon:hover {
+  border-radius: 50%;
+
+  fill: var(--secondary-accent-text-color);
+  background-color: var(--accent-text-color);
+}
+
+.team-icon {
+  width: 20px;
+  height: 20px;
+}
 /* ======================END TEAM====================== */
+
+/* ======================CLIENTS====================== */
+.clients-title {
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.clients-list {
+  display: flex;
+}
+
+.clients-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.clients-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid var(--icon-text-color);
+  border-radius: 4px;
+
+  fill: var(--icon-text-color);
+}
+
+.clients-link:hover {
+  fill: var(--accent-text-color);
+  border: 1px solid var(--accent-text-color);
+}
+
+.clients-icon {
+  width: 44.27px;
+  height: 49.23px;
+}
+/* ======================END CLIENTS====================== */
 
 /* ========================FOOTER======================== */
 .footer {
@@ -414,6 +471,14 @@ p {
   margin-bottom: 20px;
 
   color: var(--secondary-accent-text-color);
+}
+
+.footer-case {
+  display: flex;
+}
+
+.footer-box {
+  margin-right: 70px;
 }
 
 .address-item:not(:last-child) {
@@ -441,6 +506,50 @@ p {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+.footer-sns-box {
+}
+
+.footer-sns {
+  margin-bottom: 20px;
+
+  color: var(--secondary-accent-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.footer-sns-list {
+  display: flex;
+}
+.footer-sns-item {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-sns-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer-sns-item:hover {
+  background-color: var(--accent-text-color);
+}
+
+/* .footer-sns-box-icon {
+  justify-content: center;
+  align-items: center;
+} */
+.footer-sns-icon {
+  width: 20px;
+  height: 20px;
+
+  fill: var(--secondary-accent-text-color);
 }
 /* ======================END FOOTER====================== */
 
