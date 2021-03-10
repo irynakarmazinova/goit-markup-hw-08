@@ -404,7 +404,8 @@ p {
   fill: var(--icon-text-color);
 }
 
-.team-link-icon:hover {
+.team-link-icon:hover,
+.team-link-icon:focus {
   border-radius: 50%;
 
   fill: var(--secondary-accent-text-color);
@@ -440,6 +441,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+
   width: 170px;
   height: 90px;
   border: 1px solid var(--icon-text-color);
@@ -448,14 +450,10 @@ p {
   fill: var(--icon-text-color);
 }
 
-.clients-link:hover {
+.clients-link:hover,
+.clients-link:focus {
   fill: var(--accent-text-color);
   border: 1px solid var(--accent-text-color);
-}
-
-.clients-icon {
-  width: 44.27px;
-  height: 49.23px;
 }
 /* ======================END CLIENTS====================== */
 
@@ -467,7 +465,7 @@ p {
 }
 
 .footer-logo {
-  display: block;
+  display: inline-block;
   margin-bottom: 20px;
 
   color: var(--secondary-accent-text-color);
@@ -508,9 +506,6 @@ p {
   letter-spacing: 0.03em;
 }
 
-.footer-sns-box {
-}
-
 .footer-sns {
   margin-bottom: 20px;
 
@@ -526,10 +521,15 @@ p {
 .footer-sns-list {
   display: flex;
 }
-.footer-sns-item {
+.footer-sns-link {
+  display: flex;
+  align-content: center;
+  justify-content: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
+
+  fill: var(--secondary-accent-text-color);
   background: rgba(255, 255, 255, 0.1);
 }
 
@@ -537,19 +537,14 @@ p {
   margin-right: 10px;
 }
 
-.footer-sns-item:hover {
+.footer-sns-link:hover,
+.footer-sns-link:focus {
   background-color: var(--accent-text-color);
 }
 
-/* .footer-sns-box-icon {
-  justify-content: center;
-  align-items: center;
-} */
 .footer-sns-icon {
   width: 20px;
   height: 20px;
-
-  fill: var(--secondary-accent-text-color);
 }
 /* ======================END FOOTER====================== */
 
