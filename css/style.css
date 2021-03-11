@@ -480,6 +480,10 @@ p {
   color: var(--secondary-accent-text-color);
 }
 
+.footer-address {
+  width: 231px;
+}
+
 .address-item:not(:last-child) {
   margin-bottom: 9px;
 }
