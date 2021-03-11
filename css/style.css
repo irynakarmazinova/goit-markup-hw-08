@@ -466,6 +466,7 @@ p {
 
 .footer-box {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-case {
