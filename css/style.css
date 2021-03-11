@@ -455,10 +455,6 @@ p {
   fill: var(--accent-text-color);
   border: 1px solid var(--accent-text-color);
 }
-/* .clients-icon {
-  width: 44px;
-  height: 48px;
-} */
 /* ======================END CLIENTS====================== */
 
 /* ========================FOOTER======================== */
@@ -468,15 +464,15 @@ p {
   padding-bottom: 60px;
 }
 
+.footer-case {
+  display: flex;
+}
+
 .footer-logo {
   display: inline-block;
   margin-bottom: 20px;
 
   color: var(--secondary-accent-text-color);
-}
-
-.footer-case {
-  display: flex;
 }
 
 .footer-box {
