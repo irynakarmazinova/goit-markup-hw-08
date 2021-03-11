@@ -524,8 +524,9 @@ p {
 }
 .footer-sns-link {
   display: flex;
-  align-content: center;
   justify-content: center;
+  align-items: center;
+
   width: 44px;
   height: 44px;
   border-radius: 50%;
