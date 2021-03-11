@@ -464,19 +464,19 @@ p {
   padding-bottom: 60px;
 }
 
-.footer-case {
+.footer-box {
   display: flex;
 }
 
+.footer-case {
+  margin-right: 70px;
+}
+
 .footer-logo {
-  display: inline-block;
+  display: block;
   margin-bottom: 20px;
 
   color: var(--secondary-accent-text-color);
-}
-
-.footer-box {
-  margin-right: 70px;
 }
 
 .address-item:not(:last-child) {
@@ -507,6 +507,7 @@ p {
 }
 
 .footer-sns {
+  display: block;
   margin-bottom: 20px;
 
   color: var(--secondary-accent-text-color);
