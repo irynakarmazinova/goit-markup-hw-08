@@ -29,7 +29,7 @@
       <div class="container">
         <nav class="navigation">
           <!-- логотип -->
-          <a href="#" class="header-logo logo link animate__bounceInDown"
+          <a href="#" class="header-logo logo link animate__pulse"
             ><span class="acent-logo">Web</span>Studio</a
           >
 
@@ -89,16 +89,6 @@
             >
               Заказать услугу
             </button>
-
-            <div class="backdrop is-hidden" data-modal>
-              <div class="modal">
-                <button class="close-btn" data-modal-close>
-                  <svg>
-                    <use href="./image/symbol-defs.svg#icon-close-btn"></use>
-                  </svg>
-                </button>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -494,7 +484,7 @@
     <footer class="footer">
       <div class="container footer-box">
         <div class="footer-case">
-          <a href="#" class="footer-logo logo link animate__bounceInUp"
+          <a href="#" class="footer-logo logo link animate__pulse"
             ><span class="acent-logo">Web</span>Studio</a
           >
           <address class="footer-address address">
@@ -562,6 +552,18 @@
       </div>
     </footer>
 
+    <!-- МОДАЛЬНОЕ ОКНО -->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-btn" data-modal-close>
+          <svg class="close-btn-icon" width="11" height="11">
+            <use href="./images/symbol-defs.svg#icon-close-btn"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- JS -->
     <script src="./js/modal.js"></script>
   </body>
 </html>
