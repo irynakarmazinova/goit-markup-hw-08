@@ -103,7 +103,47 @@ p {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-/* ======================END COMPONENTS====================== */
+/* ======================END COMPONENTS=================== */
+
+/* ======================MODAL WINDOW=================== */
+.backdrop {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  background-color: rgba(0, 0, 0, 0.2);
+
+  transform: scale(1);
+  transition: transform 400ms ease-out;
+}
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+
+  transform: scale(0);
+  transition: transform 400ms ease-out;
+}
+
+.modal {
+  position: absolute;
+  width: 528px;
+  height: 581px;
+
+  background-color: var(--secondary-accent-text-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* ======================END MODAL WINDOW=================== */
 
 /* ========================HEADER======================== */
 .header {
@@ -216,18 +256,10 @@ p {
   color: var(--accent-text-color);
 }
 
-.contacts-icon-mail {
-  fill: currentColor;
-  margin-right: 10px;
-  width: 16px;
-  height: 12px;
-}
-
+.contacts-icon-mail,
 .contacts-icon-tel {
   fill: currentColor;
   margin-right: 10px;
-  width: 10px;
-  height: 16px;
 }
 /* ======================END HEADER====================== */
 
@@ -287,44 +319,6 @@ p {
 .main-btn:hover,
 .main-btn:focus {
   background-color: #188ce8;
-}
-
-.backdrop {
-  position: fixed;
-  z-index: 2;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-
-  background-color: rgba(0, 0, 0, 0.2);
-
-  transform: scale(1);
-  transition: transform 400ms ease-out;
-}
-
-.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-
-  transform: scale(0);
-  transition: transform 400ms ease-out;
-}
-
-.modal {
-  position: absolute;
-  width: 528px;
-  height: 581px;
-
-  background-color: var(--secondary-accent-text-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
-
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .close-btn {
