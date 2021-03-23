@@ -116,6 +116,7 @@ p {
 
   background-color: rgba(0, 0, 0, 0.2);
 
+  opacity: 1;
   transform: scale(1);
   transition: transform 400ms ease-out;
 }
@@ -131,8 +132,8 @@ p {
 
 .modal {
   position: absolute;
-  width: 528px;
-  height: 581px;
+  min-width: 528px;
+  min-height: 581px;
 
   background-color: var(--secondary-accent-text-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -141,7 +142,8 @@ p {
 
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform 400ms ease-out;
 }
 /* ======================END MODAL WINDOW=================== */
 
@@ -327,17 +329,22 @@ p {
   right: 8px;
   width: 30px;
   height: 30px;
+  padding: 0;
 
   background-color: transparent;
 
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.close-btn-icon {
+/* .close-btn-icon {
   fill: var(--logo-text-color);
-}
+} */
 
 /* ======================END HERO====================== */
 
