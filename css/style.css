@@ -121,7 +121,7 @@ p {
   transform: scale(1);
   transition: transform 400ms ease-out;
 }
-/* 
+
 .is-hidden {
   opacity: 0;
   visibility: hidden;
@@ -129,7 +129,7 @@ p {
 
   transform: scale(0);
   transition: transform 400ms ease-out;
-} */
+}
 
 .modal {
   position: absolute;
