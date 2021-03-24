@@ -19,6 +19,7 @@
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
   --accent-text-color: #2196f3;
+  --button-hover-color: #188ce8;
   --secondary-accent-text-color: #ffffff;
   --logo-text-color: #000000;
   --footer-text-color: rgba(255, 255, 255, 0.6);
@@ -144,6 +145,122 @@ p {
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   transition: transform 400ms ease-out;
+}
+
+.modal-box {
+  margin: 40px;
+}
+
+.modal-text {
+  margin-bottom: 12px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.modal-label {
+  display: block;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+
+  color: var(--secondary-text-color);
+}
+
+.modal-input,
+.modal-textarea {
+  margin-top: 4px;
+  padding: 0;
+
+  display: block;
+  width: 448px;
+  height: 40px;
+
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+.modal-input:hover,
+.modal-input:focus,
+.modal-textarea:hover,
+.modal-textarea:focus {
+  border: 1px solid var(--accent-text-color);
+}
+
+.modal-icon {
+  width: 18px;
+  height: 18px;
+  fill: var(--primary-text-color);
+}
+
+.modal-textarea {
+  margin-bottom: 20px;
+  padding: 12px 16px;
+
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.01em;
+
+  color: rgba(117, 117, 117, 0.5);
+
+  width: 448px;
+  height: 120px;
+  resize: none;
+}
+
+.modal-textarea:placeholder-shown {
+}
+
+.modal-agreement {
+  margin-bottom: 30px;
+
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-text-color);
+}
+
+.modal-agreement-link {
+  color: var(--accent-text-color);
+}
+
+.modal-btn {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.close-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+
+  background-color: transparent;
+
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .close-btn-icon {
+  fill: var(--logo-text-color);
+} */
+
+.close-btn:hover,
+.close-btn:focus {
+  fill: var(--accent-text-color);
 }
 /* ======================END MODAL WINDOW=================== */
 
@@ -298,7 +415,9 @@ p {
 }
 
 .main-btn {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 4px;
   border: 1px solid transparent;
   margin: 0 auto;
@@ -320,32 +439,8 @@ p {
 
 .main-btn:hover,
 .main-btn:focus {
-  background-color: #188ce8;
+  background-color: var(--button-hover-color);
 }
-
-.close-btn {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  width: 30px;
-  height: 30px;
-  padding: 0;
-
-  background-color: transparent;
-
-  border-radius: 50%;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* .close-btn-icon {
-  fill: var(--logo-text-color);
-} */
-
 /* ======================END HERO====================== */
 
 /* ========================FEATURES======================== */
@@ -644,7 +739,12 @@ p {
   color: var(--accent-text-color);
 }
 
-.footer-sns {
+.footer-sns-case {
+  margin-right: 93px;
+}
+
+.footer-sns-text,
+.footer-subscribe-text {
   display: block;
   margin-bottom: 20px;
 
@@ -687,6 +787,33 @@ p {
 .footer-sns-icon {
   width: 20px;
   height: 20px;
+}
+
+.footer-subscribe-form {
+  display: inline-flex;
+  align-items: center;
+}
+
+.footer-subscribe-input {
+  margin-right: 12px;
+  padding: 15px 16px;
+  width: 358px;
+  height: 50px;
+
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: var(--footer-text-color);
+
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+
+.footer-subscribe-icon {
+  fill: currentColor;
+  margin-left: 10px;
 }
 /* ======================END FOOTER====================== */
 

@@ -81,23 +81,23 @@
           <h1 class="visually-hidden">Портфолио</h1>
           <ul class="filter-list list">
             <li class="filter-item">
-              <button type="button" class="filter-btn">Все</button>
+              <p type="submit" class="filter-btn">Все</p>
             </li>
 
             <li class="filter-item">
-              <button type="button" class="filter-btn">Веб-сайты</button>
+              <button type="submit" class="filter-btn">Веб-сайты</button>
             </li>
 
             <li class="filter-item">
-              <button type="button" class="filter-btn">Приложения</button>
+              <button type="submit" class="filter-btn">Приложения</button>
             </li>
 
             <li class="filter-item">
-              <button type="button" class="filter-btn">Дизайн</button>
+              <button type="submit" class="filter-btn">Дизайн</button>
             </li>
 
             <li class="filter-item">
-              <button type="button" class="filter-btn">Маркетинг</button>
+              <button type="submit" class="filter-btn">Маркетинг</button>
             </li>
           </ul>
         </div>
@@ -358,8 +358,10 @@
             </ul>
           </address>
         </div>
+
+        <!-- присоединяйтесь -->
         <div class="footer-sns-case">
-          <b class="footer-sns">присоединяйтесь</b>
+          <b class="footer-sns-text">присоединяйтесь</b>
           <ul class="footer-sns-list list">
             <li class="footer-sns-item">
               <a class="footer-sns-link" href="">
@@ -393,6 +395,39 @@
               </a>
             </li>
           </ul>
+        </div>
+
+        <!-- подпишитесь на рассылку -->
+        <div class="footer-subscribe">
+          <b class="footer-subscribe-text">Подпишитесь на рассылку</b>
+          <div class="footer-subscribe-box">
+            <form
+              class="footer-subscribe-form"
+              action="#"
+              autocomplete="on"
+              novalidate
+              method="POST"
+            >
+              <label for=""
+                ><input
+                  class="footer-subscribe-input"
+                  type="email"
+                  name="email"
+                  placeholder="E-mail"
+              /></label>
+
+              <button
+                type="submit"
+                type="reset"
+                class="main-btn animate__pulse"
+              >
+                Подписаться
+                <svg class="footer-subscribe-icon" width="24" height="24">
+                  <use href="./images/symbol-defs.svg#icon-icon-send"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </footer>
