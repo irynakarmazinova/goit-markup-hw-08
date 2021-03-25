@@ -286,6 +286,7 @@ p {
 
 .modal-agreement-link {
   color: var(--accent-text-color);
+  outline-color: var(--accent-text-color);
 }
 
 .modal-btn {
