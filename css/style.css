@@ -286,7 +286,6 @@ p {
 
 .modal-agreement-link {
   color: var(--accent-text-color);
-  outline-color: var(--accent-text-color);
 }
 
 .modal-btn {
@@ -296,7 +295,6 @@ p {
 .modal-btn:hover,
 .modal-btn:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  outline-color: var(--accent-text-color);
 }
 
 .close-btn {
@@ -325,7 +323,6 @@ p {
 .close-btn:hover,
 .close-btn:focus {
   fill: var(--accent-text-color);
-  outline-color: var(--accent-text-color);
 }
 /* ======================END MODAL WINDOW=================== */
 
@@ -357,10 +354,6 @@ p {
   padding-bottom: 25px;
 }
 
-.header-logo:focus {
-  outline-color: var(--accent-text-color);
-}
-
 .navigation-list {
   display: flex;
 }
@@ -388,7 +381,6 @@ p {
 .navigation-link:hover,
 .navigation-link:focus {
   color: var(--accent-text-color);
-  outline-color: var(--accent-text-color);
 }
 
 .active {
@@ -440,7 +432,6 @@ p {
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--accent-text-color);
-  outline-color: var(--accent-text-color);
 }
 
 .contacts-icon-mail,
@@ -508,7 +499,6 @@ p {
 .main-btn:hover,
 .main-btn:focus {
   background-color: var(--button-hover-color);
-  outline-color: var(--accent-text-color);
 }
 /* ======================END HERO====================== */
 
@@ -701,7 +691,6 @@ p {
 
   fill: var(--secondary-accent-text-color);
   background-color: var(--accent-text-color);
-  outline-color: var(--accent-text-color);
 }
 
 .team-icon {
@@ -748,7 +737,6 @@ p {
 .clients-link:focus {
   fill: var(--accent-text-color);
   border: 1px solid var(--accent-text-color);
-  outline-color: var(--accent-text-color);
 }
 /* ======================END CLIENTS====================== */
 
@@ -777,7 +765,6 @@ p {
 
 .footer-logo:focus {
   border-color: var(--accent-text-color);
-  outline-color: var(--accent-text-color);
 }
 
 .footer-address {
@@ -813,7 +800,6 @@ p {
 .address-link:hover,
 .address-link:focus {
   color: var(--accent-text-color);
-  outline-color: var(--accent-text-color);
 }
 
 .footer-sns-case {
@@ -859,7 +845,6 @@ p {
 .footer-sns-link:hover,
 .footer-sns-link:focus {
   background-color: var(--accent-text-color);
-  outline-color: var(--accent-text-color);
 }
 
 .footer-sns-icon {
@@ -891,10 +876,6 @@ p {
 
 .footer-subscribe-input::placeholder {
   color: var(--footer-text-color);
-}
-
-.footer-subscribe-input:focus {
-  outline-color: var(--accent-text-color);
 }
 
 .footer-subscribe-icon {
@@ -939,7 +920,6 @@ p {
 .filter-btn:focus {
   color: var(--secondary-accent-text-color);
   background-color: var(--accent-text-color);
-  outline-color: var(--accent-text-color);
 
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -969,8 +949,6 @@ p {
 
 .cards-link:hover,
 .cards-link:focus {
-  outline-color: var(--accent-text-color);
-
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
