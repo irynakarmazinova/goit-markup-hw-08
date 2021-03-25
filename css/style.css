@@ -177,7 +177,7 @@ p {
   color: var(--secondary-text-color);
 }
 
-.modal-label:not(:last-child) {
+.label-mb {
   margin-bottom: 10px;
 }
 
