@@ -237,6 +237,9 @@ p {
 
 .modal-checkbox {
   cursor: pointer;
+
+  /* transition: background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 2500sms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .modal-checkbox:checked + .modal-agreement::before {
@@ -275,9 +278,6 @@ p {
 
   border-radius: 2px;
   border: 2px solid var(--primary-text-color);
-
-  /* transition: background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 2500sms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .modal-agreement-link {
