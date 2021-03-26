@@ -258,6 +258,10 @@ p {
   border-color: var(--accent-text-color);
 }
 
+/* .modal-checkbox:focus-visible + .modal-agreement::before {
+  border-color: black;
+} */
+
 .modal-agreement {
   display: flex;
   align-items: center;
@@ -876,6 +880,10 @@ p {
 
 .footer-subscribe-input::placeholder {
   color: var(--footer-text-color);
+}
+
+.footer-btn {
+  padding: 10px 27px;
 }
 
 .footer-subscribe-icon {
