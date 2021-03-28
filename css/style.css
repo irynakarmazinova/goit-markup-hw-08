@@ -257,13 +257,13 @@ p {
   background-origin: border-box;
 }
 
-.modal-checkbox:focus + .modal-agreement::before {
+/* .modal-checkbox:focus + .modal-agreement::before {
+  border-color: var(--accent-text-color);
+} */
+
+.modal-checkbox:focus-visible + .modal-agreement::before {
   border-color: var(--accent-text-color);
 }
-
-/* .modal-checkbox:focus-visible + .modal-agreement::before {
-  border-color: black;
-} */
 
 .modal-agreement {
   display: flex;
