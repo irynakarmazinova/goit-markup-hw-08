@@ -1,0 +1,48 @@
+/* ========================SPECIALIZATION======================== */
+.specialization {
+  padding-top: 47px;
+  padding-bottom: 94px;
+}
+
+.title-specialization {
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.specialization-list {
+  display: flex;
+}
+
+.specialization-item {
+  position: relative;
+  text-align: center;
+}
+
+.specialization-item:not(:nth-child(3n + 3)) {
+  margin-right: 30px;
+}
+
+.specialization-overlay {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  padding: 27px 0;
+  bottom: 0;
+  left: 0;
+
+  color: var(--secondary-accent-text-color);
+  background-color: var(--specialization-overlay);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+/* ======================END SPECIALIZATION================ */
