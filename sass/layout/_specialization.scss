@@ -21,10 +21,10 @@
 .specialization-item {
   position: relative;
   text-align: center;
-}
 
-.specialization-item:not(:nth-child(3n + 3)) {
-  margin-right: 30px;
+  &:not(:nth-child(3n + 3)) {
+    margin-right: 30px;
+  }
 }
 
 .specialization-overlay {

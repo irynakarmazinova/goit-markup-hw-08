@@ -51,10 +51,11 @@
   cursor: pointer;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &focus {
+    background-color: var(--button-hover-color);
+  }
 }
 
-.main-btn:hover,
-.main-btn:focus {
-  background-color: var(--button-hover-color);
-}
 /* ======================END HERO====================== */

@@ -10,10 +10,10 @@
 
 .features-item {
   min-width: 270px;
-}
 
-.features-item:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .features-box-icon {

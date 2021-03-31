@@ -139,8 +139,7 @@ p {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.navigation-link:hover,
-.navigation-link:focus {
+.navigation-link:hover, .navigation-link:focus {
   color: var(--accent-text-color);
 }
 
@@ -183,8 +182,7 @@ p {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts-link:hover,
-.contacts-link:focus {
+.contacts-link:hover, .contacts-link:focus {
   color: var(--accent-text-color);
 }
 
@@ -223,8 +221,7 @@ p {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.filter-btn:hover,
-.filter-btn:focus {
+.filter-btn:hover, .filter-btn:focus {
   color: var(--secondary-accent-text-color);
   background-color: var(--accent-text-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -259,8 +256,7 @@ p {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.cards-link:hover,
-.cards-link:focus {
+.cards-link:hover, .cards-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
@@ -361,6 +357,10 @@ p {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.address-link-map:hover, .address-link-map:focus {
+  color: var(--accent-text-color);
+}
+
 .address-link {
   color: var(--footer-text-color);
   font-size: 14px;
@@ -369,10 +369,7 @@ p {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.address-link-map:hover,
-.address-link-map:focus,
-.address-link:hover,
-.address-link:focus {
+.address-link:hover, .address-link:focus {
   color: var(--accent-text-color);
 }
 
@@ -408,13 +405,12 @@ p {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-sns-item:not(:last-child) {
-  margin-right: 10px;
+.footer-sns-link:hover, .footer-sns-linkfocus {
+  background-color: var(--accent-text-color);
 }
 
-.footer-sns-link:hover,
-.footer-sns-link:focus {
-  background-color: var(--accent-text-color);
+.footer-sns-item:not(:last-child) {
+  margin-right: 10px;
 }
 
 .footer-sns-icon {
