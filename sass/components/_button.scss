@@ -1,8 +1,7 @@
-// кнонпка хиро
+// кнопка хиро
 .main-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flex-center;
+
   border-radius: 4px;
   border: 1px solid transparent;
   margin: 0 auto;
@@ -39,30 +38,6 @@
   &:hover,
   &:focus {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  }
-}
-
-.close-btn {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  width: 30px;
-  height: 30px;
-  padding: 0;
-
-  background-color: transparent;
-
-  border-radius: 50%;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  &:hover,
-  &:focus {
-    fill: var(--accent-text-color);
   }
 }
 

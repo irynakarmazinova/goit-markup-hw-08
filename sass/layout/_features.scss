@@ -33,17 +33,12 @@
 .features-list__subtitle {
   margin-bottom: 10px;
 
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  @include font(700, 14px, 16px, 0.03em);
   text-transform: uppercase;
 }
 
 .features-list__description {
   color: var(--secondary-text-color);
 
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  @include font(400, 14px, 24px, 0.03em);
 }

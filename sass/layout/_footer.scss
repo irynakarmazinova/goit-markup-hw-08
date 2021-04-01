@@ -1,5 +1,5 @@
 .footer {
-  background-color: var(--primary-bgncolor);
+  background-color: $primary-bgncolor;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -18,12 +18,10 @@
   }
 }
 
-.address-list__link-map {
-  color: var(--secondary-accent-text-color);
+.address-list__link {
+  color: var(--footer-text-color);
 
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  @include font(400, 14px, 24px, 0.03em);
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -33,19 +31,8 @@
   }
 }
 
-.address-list__link {
-  color: var(--footer-text-color);
-
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  &:hover,
-  &:focus {
-    color: var(--accent-text-color);
-  }
+.address-list__link-map {
+  color: var(--secondary-accent-text-color);
 }
 
 // присоединяйтесь
@@ -53,17 +40,13 @@
   margin-right: 93px;
 }
 
-.footer-case__description,
-.footer-subscribe__description {
+.footer-description {
   display: block;
   margin-bottom: 20px;
 
   color: var(--secondary-accent-text-color);
 
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  @include font(700, 14px, 16px, 0.03em);
   text-transform: uppercase;
 }
 
@@ -79,9 +62,7 @@
   width: 358px;
   height: 50px;
 
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
+  @include font(400, 16px, 20px, 0.03em);
 
   color: var(--secondary-accent-text-color);
   background-color: transparent;

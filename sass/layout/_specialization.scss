@@ -27,10 +27,7 @@
   color: var(--secondary-accent-text-color);
   background-color: var(--specialization-overlay);
 
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
+  @include font(700, 14px, 16px, 0.03em);
   text-align: center;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }

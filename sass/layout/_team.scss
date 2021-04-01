@@ -27,20 +27,11 @@
 .team-list__subtitle {
   margin-bottom: 10px;
 
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
+  @include font(400, 16px, 19px, 0.03em);
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .team-list__profession {
-  margin-bottom: 16px;
-
+  @extend .team-list__subtitle;
   color: var(--secondary-text-color);
-
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  letter-spacing: 0.03em;
 }
