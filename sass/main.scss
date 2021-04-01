@@ -1,12 +1,18 @@
 @import './utils/variables';
+@import './utils/visually-hidden';
+@import './utils/placeholders';
+@import './utils/mixins';
 
 @import './base/common';
-@import './utils/visually-hidden';
 @import './base/container';
 @import './base/section';
 
 @import './components/logo';
+@import './components/button';
 @import './components/animation';
+
+@import './components/backdrop';
+@import './components/modal';
 
 @import './layout/header';
 @import './layout/hero';
@@ -16,10 +22,3 @@
 @import './layout/team';
 @import './layout/clients';
 @import './layout/footer';
-
-@import './components/backdrop';
-@import './components/is-hidden';
-@import './components/modal';
-
-@import './layout/filter';
-@import './layout/cards';

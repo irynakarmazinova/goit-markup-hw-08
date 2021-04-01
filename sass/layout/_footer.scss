@@ -14,23 +14,14 @@
   margin-right: 70px;
 }
 
-.footer-logo {
-  display: block;
-  margin-bottom: 20px;
-
-  color: var(--secondary-accent-text-color);
-
-  &:focus {
-    border-color: var(--accent-text-color);
-  }
-}
-
 .footer-address {
   width: 231px;
 }
 
-.address-item:not(:last-child) {
-  margin-bottom: 9px;
+.address-item {
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
 }
 
 .address-link-map {
@@ -84,6 +75,7 @@
 .footer-sns-list {
   display: flex;
 }
+
 .footer-sns-link {
   display: flex;
   justify-content: center;
@@ -104,8 +96,10 @@
   }
 }
 
-.footer-sns-item:not(:last-child) {
-  margin-right: 10px;
+.footer-sns-item {
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 
 .footer-sns-icon {
@@ -137,10 +131,6 @@
   &::placeholder {
     color: var(--footer-text-color);
   }
-}
-
-.footer-btn {
-  padding: 10px 27px;
 }
 
 .footer-subscribe-icon {

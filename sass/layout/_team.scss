@@ -13,8 +13,10 @@
   letter-spacing: 0.03em;
 }
 
-.container > .team-list {
-  display: flex;
+.team-list {
+  .container > & {
+    display: flex;
+  }
 }
 
 .team-item {
@@ -61,8 +63,10 @@
   justify-content: center;
 }
 
-.team-item-icon:not(:last-child) {
-  margin-right: 10px;
+.team-item-icon {
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 
 .team-link-icon {

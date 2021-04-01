@@ -13,8 +13,10 @@
   display: flex;
 }
 
-.clients-item:not(:last-child) {
-  margin-right: 30px;
+.clients-item {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .clients-link {

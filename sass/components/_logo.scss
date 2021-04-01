@@ -9,3 +9,17 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+
+.header-logo {
+  color: var(--logo-text-color);
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 20px;
+
+  color: var(--secondary-accent-text-color);
+}
