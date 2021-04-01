@@ -1,24 +1,13 @@
-/* ========================SPECIALIZATION======================== */
 .specialization {
   padding-top: 47px;
   padding-bottom: 94px;
-}
-
-.title-specialization {
-  margin-bottom: 50px;
-
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .specialization-list {
   display: flex;
 }
 
-.specialization-item {
+.specialization-list__item {
   position: relative;
   text-align: center;
 
@@ -27,7 +16,7 @@
   }
 }
 
-.specialization-overlay {
+.image-overlay {
   position: absolute;
   z-index: 0;
   width: 100%;
@@ -45,4 +34,3 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-/* ======================END SPECIALIZATION================ */

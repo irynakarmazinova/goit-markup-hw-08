@@ -66,10 +66,6 @@
   }
 }
 
-/* .close-btn-icon {
-  fill: var(--logo-text-color);
-} */
-
 // портфолио-кнопки фильтра
 .filter-btn {
   border-radius: 4px;
@@ -102,7 +98,7 @@
 }
 
 // портфолио-кнопки фильтра "все"
-.active-btn {
+.filter-btn_active {
   color: var(--secondary-accent-text-color);
   background-color: var(--accent-text-color);
 

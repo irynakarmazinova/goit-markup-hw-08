@@ -1,25 +1,25 @@
-.acent-logo {
-  color: var(--accent-text-color);
-}
-
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-}
 
-.header-logo {
-  color: var(--logo-text-color);
-  margin-right: 93px;
-  padding-top: 24px;
-  padding-bottom: 25px;
-}
+  &_dark-theme {
+    color: var(--logo-text-color);
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
 
-.footer-logo {
-  display: block;
-  margin-bottom: 20px;
+  &_light-theme {
+    display: block;
+    margin-bottom: 20px;
 
-  color: var(--secondary-accent-text-color);
+    color: var(--secondary-accent-text-color);
+  }
+
+  &__acent {
+    color: var(--accent-text-color);
+  }
 }

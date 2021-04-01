@@ -5,7 +5,12 @@
   margin: 0 auto;
   padding: 0 15px;
 
-  .header > & {
+  &__header {
     display: flex;
+  }
+
+  &__footer {
+    display: flex;
+    align-items: baseline;
   }
 }
