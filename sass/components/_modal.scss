@@ -41,6 +41,10 @@
   align-items: center;
   justify-content: center;
 
+  &__icon {
+    fill: var(--logo-text-color);
+  }
+
   &:hover,
   &:focus {
     fill: var(--accent-text-color);
