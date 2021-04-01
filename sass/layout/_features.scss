@@ -16,9 +16,8 @@
 }
 
 .features-list__icon-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex-center;
+
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
