@@ -24,6 +24,10 @@
   &:focus {
     background-color: var(--button-hover-color);
   }
+
+  &_margin {
+    margin-top: 30px;
+  }
 }
 
 // футер форма
