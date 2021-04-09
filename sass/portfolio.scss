@@ -1,5 +1,6 @@
 @import './utils/variables';
 @import './utils/visually-hidden';
+@import './utils/placeholders';
 @import './utils/mixins';
 
 @import './base/common';
@@ -8,10 +9,20 @@
 
 @import './components/logo';
 @import './components/button';
+@import './components/title';
 @import './components/social-links';
 @import './components/animation';
 
+@import './components/mobile-menu';
+
+@import './components/backdrop';
+@import './components/modal';
+@import './components/modal-form';
+
 @import './layout/header';
-@import './layout/filter';
-@import './layout/cards';
+@import './layout/hero';
+@import './layout/features';
+@import './layout/specialization';
+@import './layout/team';
+@import './layout/clients';
 @import './layout/footer';

@@ -25,16 +25,16 @@
 
   <body>
     <!-- шапка сайта -->
-    <!-- <header class="header">
+    <header class="header">
       <div class="container container__header">
-        <nav class="navigation"> -->
-    <!-- логотип -->
-    <!-- <a href="#" class="logo logo_dark-theme link animate__pulse"
+        <nav class="navigation">
+          <!-- логотип -->
+          <a href="#" class="logo logo_dark-theme link animate__pulse"
             ><span class="logo__acent">Web</span>Studio</a
-          > -->
+          >
 
-    <!-- перечень шапка -->
-    <!-- <ul class="navigation-list list">
+          <!-- перечень шапка -->
+          <ul class="navigation-list list">
             <li class="navigation-list__item">
               <a
                 href="./index.html"
@@ -51,23 +51,48 @@
               <a href="#" class="navigation-list__link link">Контакты</a>
             </li>
           </ul>
-        </nav> -->
+        </nav>
 
-    <!-- контакты -->
-    <!-- <ul class="contacts-list list">
+        <!-- контакты -->
+        <ul class="contacts-list list">
           <li class="contacts-list__item">
             <a
               class="contacts-list__link link"
               href="mailto:info@devstudio.com"
               lang="en"
-              ><svg class="contacts-list__icon-mail" width="16" height="12">
+            >
+              <!-- иконка для таблетки мэил-->
+              <svg
+                class="contacts-list__icon-mail-tablet-menu"
+                width="14"
+                height="10"
+              >
+                <use
+                  href="./images/symbol-defs.svg#icon-mail-tablet-menu"
+                ></use>
+              </svg>
+
+              <!-- иконка для десктопа мэил-->
+              <svg class="contacts-list__icon-mail" width="16" height="12">
                 <use href="./images/symbol-defs.svg#icon-mail"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
+
           <li class="contacts-list__item">
             <a class="contacts-list__link link" href="tel:+380961111111">
+              <!-- иконка для таблетки тел -->
+              <svg
+                class="contacts-list__icon-tel-tablet-menu"
+                width="10"
+                height="14"
+              >
+                <use
+                  href="./images/symbol-defs.svg#icon-smartphone-1-tablet-menu"
+                ></use>
+              </svg>
+              <!-- иконка для десктопа тел -->
               <svg class="contacts-list__icon-tel" width="10" height="16">
                 <use href="./images/symbol-defs.svg#icon-smartphone-1"></use>
               </svg>
@@ -75,8 +100,15 @@
             >
           </li>
         </ul>
+        <svg class="mobile-menu-icon" width="40" height="40" data-menu-button>
+          <use href="./images/symbol-defs.svg#icon-mobile-menu"></use>
+        </svg>
+
+        <svg class="mobile-menu-close" width="40" height="40" data-menu-close>
+          <use href="./images/symbol-defs.svg#icon-mobile-menu-close"></use>
+        </svg>
       </div>
-    </header> -->
+    </header>
 
     <main>
       <!-- HERO -->
