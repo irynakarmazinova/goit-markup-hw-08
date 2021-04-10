@@ -945,8 +945,8 @@ p {
 }
 
 .clients-list__item {
-  height: 90px;
   width: 100%;
+  height: 90px;
 }
 
 @media screen and (max-width: 479px) {
