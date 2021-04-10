@@ -11,10 +11,7 @@
   color: var(--secondary-accent-text-color);
   background-color: var(--accent-text-color);
 
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
+  @include font(700, 16px, 30px, 0.06em);
   font-family: inherit;
   cursor: pointer;
 
@@ -54,11 +51,8 @@
   color: var(--primary-text-color);
   background-color: var(--secondary-bgncolor);
 
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.63;
+  @include font(500, 16px, 26px, 0.03em);
   text-align: center;
-  letter-spacing: 0.03em;
   font-family: inherit;
   cursor: pointer;
 
