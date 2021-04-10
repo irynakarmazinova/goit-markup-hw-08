@@ -100,9 +100,79 @@
             >
           </li>
         </ul>
-
         <!-- мобильное меню -->
-       
+        <svg class="mobile-menu-icon" width="40" height="40" data-menu-button>
+          <use href="./images/symbol-defs.svg#icon-mobile-menu"></use>
+        </svg>
+
+        <div class="mobile-menu" data-menu>
+          <nav class="navigation-mobile-menu">
+            <ul class="navigation-mobile-menu__list list">
+              <li class="navigation-mobile-menu__item">
+                <a href="#" class="navigation-mobile-menu__link link">Студия</a>
+              </li>
+              <li class="navigation-mobile-menu__item">
+                <a
+                  href="./portfolio.html"
+                  class="navigation-mobile-menu__link link"
+                  >Портфолио</a
+                >
+              </li>
+              <li class="navigation-mobile-menu__item">
+                <a href="#" class="navigation-mobile-menu__link link"
+                  >Контакты</a
+                >
+              </li>
+            </ul>
+          </nav>
+
+          <ul class="contacts-mobile-menu-list list">
+            <li class="contacts-mobile-menu-list__item">
+              <a
+                class="contacts-mobile-menu-list__link-tel link"
+                href="tel:+380961111111"
+              >
+                +38 096 111 11 11</a
+              >
+            </li>
+
+            <li class="contacts-mobile-menu-list__item">
+              <a
+                class="contacts-mobile-menu-list__link-mail link"
+                href="mailto:info@devstudio.com"
+                lang="en"
+              >
+                info@devstudio.com</a
+              >
+            </li>
+          </ul>
+
+          <ul class="social-links-mobile-menu list">
+            <li class="social-links-mobile-menu__item">
+              <a href="#" class="social-links-mobile-menu__link link"
+                >Instagram</a
+              >
+            </li>
+            <li class="social-links-mobile-menu__item">
+              <a href="#" class="social-links-mobile-menu__link link"
+                >Twitter</a
+              >
+            </li>
+            <li class="social-links-mobile-menu__item">
+              <a href="#" class="social-links-mobile-menu__link link"
+                >Facebook</a
+              >
+            </li>
+            <li class="social-links-mobile-menu__item">
+              <a href="#" class="social-links-mobile-menu__link link"
+                >LinkedIn</a
+              >
+            </li>
+          </ul>
+
+          <svg class="mobile-menu-close" width="40" height="40" data-menu-close>
+            <use href="./images/symbol-defs.svg#icon-mobile-menu-close"></use>
+          </svg>
         </div>
       </div>
     </header>
@@ -697,63 +767,61 @@
       </section>
 
       <!-- CLIENTS -->
-    <section class="clients section">
-      <div class="container">
-        <h2 class="title">Постоянные клиенты</h2>
-        <ul class="clients-list list">
-          <li class="clients-list__item">
-            <a class="clients-list__link" href="#">
-              <svg class="clients-list__icon" width="44" height="48">
-                <use href="./images/symbol-defs.svg#icon-logo-1"></use>
-              </svg>
-            </a>
-          </li>
+      <section class="clients section">
+        <div class="container">
+          <h2 class="title">Постоянные клиенты</h2>
+          <ul class="clients-list list">
+            <li class="clients-list__item">
+              <a class="clients-list__link" href="#">
+                <svg class="clients-list__icon" width="44" height="48">
+                  <use href="./images/symbol-defs.svg#icon-logo-1"></use>
+                </svg>
+              </a>
+            </li>
 
-          <li class="clients-list__item">
-            <a class="clients-list__link" href="#">
-              <svg class="clients-list__icon" width="40" height="52">
-                <use href="./images/symbol-defs.svg#icon-logo-2"></use>
-              </svg>
-            </a>
-          </li>
+            <li class="clients-list__item">
+              <a class="clients-list__link" href="#">
+                <svg class="clients-list__icon" width="40" height="52">
+                  <use href="./images/symbol-defs.svg#icon-logo-2"></use>
+                </svg>
+              </a>
+            </li>
 
-          <li class="clients-list__item">
-            <a class="clients-list__link" href="#">
-              <svg class="clients-list__icon" width="41" height="42">
-                <use href="./images/symbol-defs.svg#icon-logo-3"></use>
-              </svg>
-            </a>
-          </li>
+            <li class="clients-list__item">
+              <a class="clients-list__link" href="#">
+                <svg class="clients-list__icon" width="41" height="42">
+                  <use href="./images/symbol-defs.svg#icon-logo-3"></use>
+                </svg>
+              </a>
+            </li>
 
-          <li class="clients-list__item">
-            <a class="clients-list__link" href="#">
-              <svg class="clients-list__icon" width="80" height="42">
-                <use href="./images/symbol-defs.svg#icon-logo-4"></use>
-              </svg>
-            </a>
-          </li>
+            <li class="clients-list__item">
+              <a class="clients-list__link" href="#">
+                <svg class="clients-list__icon" width="80" height="42">
+                  <use href="./images/symbol-defs.svg#icon-logo-4"></use>
+                </svg>
+              </a>
+            </li>
 
-          <li class="clients-list__item">
-            <a class="clients-list__link" href="#">
-              <svg class="clients-list__icon" width="59" height="47">
-                <use href="./images/symbol-defs.svg#icon-logo-5"></use>
-              </svg>
-            </a>
-          </li>
+            <li class="clients-list__item">
+              <a class="clients-list__link" href="#">
+                <svg class="clients-list__icon" width="59" height="47">
+                  <use href="./images/symbol-defs.svg#icon-logo-5"></use>
+                </svg>
+              </a>
+            </li>
 
-          <li class="clients-list__item">
-            <a class="clients-list__link" href="#">
-              <svg class="clients-list__icon" width="88" height="44">
-                <use href="./images/symbol-defs.svg#icon-logo-6"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </section>
+            <li class="clients-list__item">
+              <a class="clients-list__link" href="#">
+                <svg class="clients-list__icon" width="88" height="44">
+                  <use href="./images/symbol-defs.svg#icon-logo-6"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
-
-    
 
     <!-- подвал/FOOTER -->
     <footer class="footer">
@@ -944,7 +1012,7 @@
     </div>
 
     <!-- JS -->
-    <!-- <script src="./js/mobile-menu.js"></script> -->
+    <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>

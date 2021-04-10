@@ -1,17 +1,67 @@
-// бургер меню
-.mobile-menu-icon {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.navigation-mobile-menu__item {
+  &:not(:last-child) {
+    margin-bottom: 32px;
+  }
+}
+.navigation-mobile-menu__link {
+  color: currentColor;
+  @include font(400, 40px, 47px, 0.02em);
 
   &:hover,
   &:focus {
-    fill: var(--accent-text-color);
+    color: var(--accent-text-color);
+  }
+}
+
+// .contacts-mobile-menu-list {
+//   margin-top: auto;
+// }
+
+.contacts-mobile-menu-list__item {
+  &:first-child {
+    margin-bottom: 32px;
   }
 
-  @media screen and (min-width: 768px) {
-    display: none;
+  &:last-child {
+    margin-bottom: 64px;
   }
+}
+.contacts-mobile-menu-list__link-tel {
+  @include font(500, 34px, 40px, 0.02em);
+
+  color: var(--accent-text-color);
+}
+
+.contacts-mobile-menu-list__link-mail {
+  @include font(500, 24px, 28px, 0.02em);
+
+  color: var(--secondary-text-color);
+}
+
+.social-links-mobile-menu {
+  display: flex;
+}
+
+.social-links-mobile-menu__item {
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  &::after {
+    content: '';
+    width: 22px;
+    height: 1px;
+    margin-left: 10px;
+
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    transform: rotate(90deg);
+    &:not(:last-child) {
+    }
+  }
+}
+
+.social-links-mobile-menu__link {
+  @include font(500, 18px, 22px, 0.02em);
+
+  color: var(--accent-text-color);
 }
