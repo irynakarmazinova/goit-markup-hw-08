@@ -17,17 +17,12 @@
 }
 
 .filter-list__item {
+  margin-bottom: 15px;
   &:not(:last-child) {
     margin-right: 8px;
   }
 
-  &:first-child {
-    margin-bottom: 15px;
-  }
-
   @media screen and (min-width: 768px) {
-    &:first-child {
-      margin-bottom: unset;
-    }
+    margin-bottom: 0;
   }
 }
