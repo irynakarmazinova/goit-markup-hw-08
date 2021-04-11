@@ -1,9 +1,9 @@
 /* ------------------------PORTFOLIO---------------------- */
 .cards-list {
-  display: flex;
-  flex-wrap: wrap;
-
   @media screen and(min-width:768px) {
+    display: flex;
+    flex-wrap: wrap;
+
     margin-right: -30px;
     margin-bottom: -30px;
   }
@@ -32,7 +32,7 @@
 
 .cards-list__link {
   display: block;
-
+  // text-decoration: none;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover,
