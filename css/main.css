@@ -1142,12 +1142,6 @@ p {
   height: 90px;
 }
 
-@media screen and (max-width: 479px) {
-  .clients-list__item:not(:last-child) {
-    margin-bottom: 30px;
-  }
-}
-
 @media screen and (min-width: 480px) {
   .clients-list__item {
     width: 210px;
