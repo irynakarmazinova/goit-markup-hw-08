@@ -10,11 +10,11 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: baseline;
+  }
 
-    @media screen and (min-width: 1200px) {
-      flex-wrap: nowrap;
-      justify-content: flex-start;
-    }
+  @media screen and (min-width: 1200px) {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
   }
 }
 
