@@ -38,7 +38,7 @@
             <li class="navigation-list__item">
               <a
                 href="./index.html"
-                class="navigation-list__link link active-link"
+                class="navigation-list__link link navigation-list__link_active"
                 >Студия</a
               >
             </li>
@@ -113,7 +113,9 @@
       <div class="mobile-menu" data-menu>
         <nav class="navigation-mobile-menu">
           <ul class="navigation-mobile-menu__list list">
-            <li class="navigation-mobile-menu__item">
+            <li
+              class="navigation-mobile-menu__item navigation-mobile-menu__item_active"
+            >
               <a href="#" class="navigation-mobile-menu__link link">Студия</a>
             </li>
             <li class="navigation-mobile-menu__item">
@@ -1007,11 +1009,13 @@
               name="agreement"
             />
             <label for="user-choice" class="modal-checkbox__agreement">
-              Соглашаюсь с рассылкой и принимаю&nbsp;<a
-                class="modal-checkbox__agreement-link"
-                href="#"
-                >Условия договора</a
-              >
+              <span class="agreement-box">
+                Соглашаюсь с рассылкой и принимаю&nbsp;<a
+                  class="modal-checkbox__agreement-link"
+                  href="#"
+                  >Условия договора</a
+                >
+              </span>
             </label>
             <button type="submit" class="main-btn modal-btn animate__pulse">
               Отправить
