@@ -437,6 +437,7 @@ p {
   right: 0px;
   width: 100vw;
   height: 100vh;
+  padding: 48px 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -449,8 +450,6 @@ p {
 }
 
 .is-open {
-  padding: 48px 40px;
-  background-color: #fff;
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
