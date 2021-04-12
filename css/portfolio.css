@@ -885,8 +885,7 @@ p {
   .cards-list {
     display: flex;
     flex-wrap: wrap;
-    margin-right: -30px;
-    margin-bottom: -30px;
+    margin: -15px;
   }
 }
 
@@ -904,8 +903,7 @@ p {
 @media screen and (min-width: 768px) {
   .cards-list__item {
     width: 354px;
-    margin-right: 30px;
-    margin-bottom: 30px;
+    margin: 15px;
   }
 }
 
