@@ -34,7 +34,7 @@
 
   color: var(--accent-text-color);
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 479px) {
     @include font(500, 24px, 28px, 0.02em);
   }
 }
@@ -48,7 +48,7 @@
 .social-links-mobile-menu {
   display: flex;
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 479px) {
     flex-wrap: wrap;
   }
 }
@@ -70,7 +70,7 @@
     }
   }
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 479px) {
     margin-bottom: 15px;
   }
 }

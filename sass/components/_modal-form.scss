@@ -120,7 +120,7 @@
     border-radius: 2px;
     border: 2px solid var(--primary-text-color);
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 479px) {
       height: 11px;
     }
   }
@@ -139,7 +139,7 @@
 }
 
 .agreement-box {
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 479px) {
     flex-wrap: wrap;
   }
 }

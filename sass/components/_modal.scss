@@ -15,7 +15,7 @@
   transform: translate(-50%, -50%) scale(1);
   transition: transform 400ms ease-out;
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 479px) {
     min-width: 320px;
   }
 
