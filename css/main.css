@@ -869,7 +869,7 @@ p {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 480px) {
   .hero {
     max-width: 768px;
     height: 400px;
@@ -878,7 +878,7 @@ p {
   }
 }
 
-@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 480px) and (min-device-pixel-ratio: 2), screen and (min-width: 480px) and (min-resolution: 192dpi), screen and (min-width: 480px) and (min-resolution: 2dppx) {
   .hero {
     max-width: 768px;
     height: 400px;
@@ -886,7 +886,7 @@ p {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .hero {
     max-width: 1600px;
     height: 600px;
@@ -897,7 +897,7 @@ p {
   }
 }
 
-@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .hero {
     max-width: 1600px;
     height: 600px;

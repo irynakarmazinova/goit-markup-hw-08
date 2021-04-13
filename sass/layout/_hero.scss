@@ -26,7 +26,8 @@
       url('../images/mobile/hero/hero-img@2x.jpg');
   }
 
-  @media screen and (min-width: 768px) {
+  // таблетка
+  @media screen and (min-width: 480px) {
     max-width: 768px;
     height: 400px;
 
@@ -51,7 +52,8 @@
     }
   }
 
-  @media screen and (min-width: 1200px) {
+  // десктоп
+  @media screen and (min-width: 768px) {
     max-width: 1600px;
     height: 600px;
     padding-top: 200px;
