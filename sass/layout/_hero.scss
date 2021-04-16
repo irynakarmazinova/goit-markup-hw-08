@@ -84,13 +84,13 @@
 .hero__title {
   margin-left: auto;
   margin-right: auto;
-
   max-width: 360px;
 
-  color: var(--secondary-accent-text-color);
   @include font(900, 26px, 42px, 0.06em);
   text-align: center;
   text-transform: uppercase;
+
+  color: var(--secondary-accent-text-color);
 
   @media screen and (min-width: 1200px) {
     max-width: 696px;
