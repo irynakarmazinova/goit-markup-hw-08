@@ -1023,6 +1023,7 @@ p {
   .footer-box {
     flex-wrap: nowrap;
     justify-content: flex-start;
+    margin-right: 93px;
   }
 }
 
@@ -1085,7 +1086,6 @@ p {
 @media screen and (min-width: 1200px) {
   .footer-case {
     text-align: inherit;
-    margin-right: 93px;
   }
 }
 
